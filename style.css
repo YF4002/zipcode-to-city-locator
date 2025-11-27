@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 10% 15% 0% 15%;
+    width: 100%;
+    height: auto;
+}
+
+.Title h1{
+    font-size: 2em;
+}
+
+.Title p {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgba(159, 159, 159, 1);
+}
+
+#zip-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#zip-form input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    margin-top: 2%;
+    padding: 10px 15px;
+    background-color: rgba(64, 111, 182, 1);
+    width: 10%;
+    height: 4em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.result {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12% 30% 0% 35%;
+    top: 1em;
+    right: 0em;
+}

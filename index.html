@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zip Code to City</title>
+</head>
+<body>
+    <div class="Title">
+        <h1>Zip Code Lookup</h1>
+        <p>Type your Zip Code to see some details</p>
+    </div>
+    <label for="zip-code">Zip Code</label>
+    <form id="zip-form">
+        <input type="text" id="zip-code" name="zip-code" placeholder="text goes here" pattern="\d{5}"  autofocus required>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="result">
+        <h1>RESULTS GO HERE</h1>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
